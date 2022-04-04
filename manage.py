@@ -63,7 +63,7 @@ def main():
                     print(" ")
         except:        
             temp = str(i)
-            if temp == "q":
+            if temp == "q" or temp == "Q":
                 print(" ")
                 print("quit")
                 time.sleep(2)
