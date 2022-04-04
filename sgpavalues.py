@@ -1,4 +1,4 @@
-import manage
+import manage, time
 
 def calc(res):
     if res == "O" or res == "o" or res == "S" or res == "s" or res == "A" or res == "a" or res == "B" or res == "b" or res == "C" or res == "c" or res == "D" or res == "d" or res == "F" or res == "f":
@@ -17,7 +17,9 @@ def calc(res):
         elif res == "F" or res == "f":
              return 0
     elif res != "O" or res != "o" or res != "S" or res != "s" or res != "A" or res != "a" or res != "B" or res != "b" or res != "C" or res != "c" or res != "D" or res != "d" or res != "F" or res != "f":
+        print(" ")
         print("Please check your values....")
+        time.sleep(1)
         manage.main()
     
 #calc("a")
