@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr  2 21:53:50 2022
+
+@author: bhara
+"""
+
+[autoreload of sgpavalues failed: Traceback (most recent call last):
+  File "C:\Program Files\Spyder\pkgs\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Program Files\Spyder\pkgs\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "D:\obj\windows-release\37amd64_Release\msi_python\zip_amd64\imp.py", line 314, in reload
+  File "D:\obj\windows-release\37amd64_Release\msi_python\zip_amd64\__init__.py", line 169, in reload
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "E:\Python tutorial\my sgpa calc\sgpavalues.py", line 1, in <module>
+    import manage
+  File "E:\Python tutorial\my sgpa calc\manage.py", line 38, in <module>
+    main()
+  File "E:\Python tutorial\my sgpa calc\manage.py", line 19, in main
+    print(t1.sem1_1())
+AttributeError: module 'sgpavalues' has no attribute 'calc'
+]
